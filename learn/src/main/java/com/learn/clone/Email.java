@@ -9,6 +9,8 @@ import java.io.Serializable;
  */
 @Data
 public class Email implements Serializable {
+    private static String type = "EMAIL";
+
     String head;
     String message;
 

@@ -16,7 +16,7 @@ public class CloneTestSerial {
 
         PersonSerial person1 = new PersonSerial("zhangsan", email);
 
-        final PersonSerial person2 = CloneUtils.cloneBySerial(person1);
+        final PersonSerial person2 = CloneUtils3.cloneBySerial(person1);
         person2.getEmail().setMessage("请与今天15:30到二会议室参加会议");
 
 
