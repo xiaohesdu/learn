@@ -1,0 +1,2 @@
+#log
+logging.level.com.sdo.sysdev.monitor: warn
